@@ -9,7 +9,7 @@
 
 ### 2. Run Flaask app in *terminal*
 
-![run](.img/run.png)
+![run](img/run.png)
 
 
 ```python
@@ -26,11 +26,11 @@ flask run
 
 #### encode
 open URL in browser: [URL](http://127.0.0.1:5000/api/bch/encode?secret=lhm)
-![1](.img/encode.png)
+![1](img/encode.png)
 
 #### decode
 
-![decode](.img/decode.png)
+![decode](img/decode.png)
 
 
 ```python
