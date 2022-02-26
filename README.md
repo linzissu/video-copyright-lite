@@ -36,3 +36,19 @@ video copyright protector based on digital watermark
 - 参考 [tflite_flutter_helper](https://github.com/am15h/tflite_flutter_helper)
 - bchlib：参考[bchlib-api](#) 和 [dio: ^4.0.4](https://pub.dev/packages/dio)
 
+---
+### 2022/2/26
+> 完善模型接入：
+
+- 已完成encode部分，接下来需要参照python代码部分完善[输出图像处理](https://github.com/linzissu/video-copyright-lite/blob/b77a030955952c67982b0c7932c59017f5e0f5b1/video_stega_stamp/encoder.py#L67)（out_img`*`255+0.5），最后将图片写入磁盘或展示在界面上。
+- 参照encode编写好decode，验证是否编解码成功。
+- 过程中可能会遇到图像旋转，RGB转换，格式转换等问题。
+- 接入视频流，将单张图片扩展到视频流。
+
+> 参考：
+- [flutter_ffmpeg: ^0.4.2](https://pub.dev/packages/flutter_ffmpeg)
+- [export_video_frame: ^0.0.7](https://pub.dev/packages/export_video_frame)
+
+
+
+
