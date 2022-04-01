@@ -49,6 +49,7 @@ video copyright protector based on digital watermark
 - [flutter_ffmpeg: ^0.4.2](https://pub.dev/packages/flutter_ffmpeg)
 - [export_video_frame: ^0.0.7](https://pub.dev/packages/export_video_frame)
 
-
-
-
+### 2022/4/1
+> stega_stamp 后端
+- [File POST](https://flask.palletsprojects.com/en/2.0.x/patterns/fileuploads/)
+- [DIO](https://pub.dev/packages/dio)
