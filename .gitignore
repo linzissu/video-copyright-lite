@@ -6,7 +6,6 @@ __pycache__/
 # specific
 model/
 .vscode/
-test/
 
 # C extensions
 *.so
