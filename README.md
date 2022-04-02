@@ -51,5 +51,5 @@ video copyright protector based on digital watermark
 
 ### 2022/4/1
 > stega_stamp 后端
-- [File POST](https://flask.palletsprojects.com/en/2.0.x/patterns/fileuploads/)
-- [DIO](https://pub.dev/packages/dio)
+- [x] [File POST](https://flask.palletsprojects.com/en/2.0.x/patterns/fileuploads/)
+- [] 前端设计界面，完成文件上传，编码，下载，上传，解码四个接口接入。[DIO](https://pub.dev/packages/dio)
